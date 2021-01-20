@@ -1,0 +1,323 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "AppFeedback-debug.module": ["<AppFeedback-debug.module>"]
+  "AppFeedbackPackageTests-debug.test": ["<AppFeedbackPackageTests-debug.test>"]
+  "AppFeedbackTests-debug.module": ["<AppFeedbackTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<AppFeedback-debug.module>"]
+  "test": ["<AppFeedback-debug.module>","<AppFeedbackPackageTests-debug.test>","<AppFeedbackTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/kkamakur/AppFeedback-ios/AppFeedback/":
+    is-directory-structure: true
+  "/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/":
+    is-directory-structure: true
+commands:
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AnimationUtil.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/AnimationUtil.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AnimationUtil.m.o"]
+    description: "Compiling AppFeedback AnimationUtil.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AnimationUtil.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/AnimationUtil.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AnimationUtil.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AnimationUtil.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AppFeedbackInternal.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/AppFeedbackInternal.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AppFeedbackInternal.m.o"]
+    description: "Compiling AppFeedback AppFeedbackInternal.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AppFeedbackInternal.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/AppFeedbackInternal.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AppFeedbackInternal.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AppFeedbackInternal.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AutoResizeTextView.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/AutoResizeTextView.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AutoResizeTextView.m.o"]
+    description: "Compiling AppFeedback AutoResizeTextView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AutoResizeTextView.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/AutoResizeTextView.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AutoResizeTextView.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AutoResizeTextView.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/CaptureOverlayWindow.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/CaptureOverlayWindow.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/CaptureOverlayWindow.m.o"]
+    description: "Compiling AppFeedback CaptureOverlayWindow.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/CaptureOverlayWindow.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/CaptureOverlayWindow.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/CaptureOverlayWindow.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/CaptureOverlayWindow.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Color.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/Color.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Color.m.o"]
+    description: "Compiling AppFeedback Color.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Color.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/Color.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Color.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Color.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Config.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/Config.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Config.m.o"]
+    description: "Compiling AppFeedback Config.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Config.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/Config.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Config.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Config.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DeviceUtil.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/DeviceUtil.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DeviceUtil.m.o"]
+    description: "Compiling AppFeedback DeviceUtil.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DeviceUtil.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/DeviceUtil.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DeviceUtil.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DeviceUtil.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawView.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/DrawView.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawView.m.o"]
+    description: "Compiling AppFeedback DrawView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawView.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/DrawView.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawView.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawView.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawViewController.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/DrawViewController.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawViewController.m.o"]
+    description: "Compiling AppFeedback DrawViewController.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawViewController.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/DrawViewController.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawViewController.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawViewController.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ExpansionButton.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/ExpansionButton.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ExpansionButton.m.o"]
+    description: "Compiling AppFeedback ExpansionButton.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ExpansionButton.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/ExpansionButton.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ExpansionButton.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ExpansionButton.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonController.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonController.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonController.m.o"]
+    description: "Compiling AppFeedback FloatingButtonController.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonController.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonController.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonController.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonController.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonControllerIOS9.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonControllerIOS9.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonControllerIOS9.m.o"]
+    description: "Compiling AppFeedback FloatingButtonControllerIOS9.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonControllerIOS9.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonControllerIOS9.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonControllerIOS9.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonControllerIOS9.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonOuterView.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonOuterView.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonOuterView.m.o"]
+    description: "Compiling AppFeedback FloatingButtonOuterView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonOuterView.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonOuterView.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonOuterView.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonOuterView.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonView.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonView.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonView.m.o"]
+    description: "Compiling AppFeedback FloatingButtonView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonView.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonView.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonView.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonView.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonWindow.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonWindow.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonWindow.m.o"]
+    description: "Compiling AppFeedback FloatingButtonWindow.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonWindow.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonWindow.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonWindow.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonWindow.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingProgressView.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingProgressView.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingProgressView.m.o"]
+    description: "Compiling AppFeedback FloatingProgressView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingProgressView.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingProgressView.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingProgressView.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingProgressView.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/NSURL+Sizse.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/NSURL+Sizse.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/NSURL+Sizse.m.o"]
+    description: "Compiling AppFeedback NSURL+Sizse.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/NSURL+Sizse.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/NSURL+Sizse.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/NSURL+Sizse.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/NSURL+Sizse.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/OverlayWindow.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/OverlayWindow.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/OverlayWindow.m.o"]
+    description: "Compiling AppFeedback OverlayWindow.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/OverlayWindow.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/OverlayWindow.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/OverlayWindow.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/OverlayWindow.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/PopUpTransitionAnimater.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/PopUpTransitionAnimater.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/PopUpTransitionAnimater.m.o"]
+    description: "Compiling AppFeedback PopUpTransitionAnimater.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/PopUpTransitionAnimater.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/PopUpTransitionAnimater.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/PopUpTransitionAnimater.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/PopUpTransitionAnimater.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ReportViewController.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/ReportViewController.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ReportViewController.m.o"]
+    description: "Compiling AppFeedback ReportViewController.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ReportViewController.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/ReportViewController.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ReportViewController.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ReportViewController.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenCapture.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/ScreenCapture.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenCapture.m.o"]
+    description: "Compiling AppFeedback ScreenCapture.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenCapture.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/ScreenCapture.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenCapture.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenCapture.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenVideoCaptureSession.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/ScreenVideoCaptureSession.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenVideoCaptureSession.m.o"]
+    description: "Compiling AppFeedback ScreenVideoCaptureSession.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenVideoCaptureSession.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/ScreenVideoCaptureSession.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenVideoCaptureSession.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenVideoCaptureSession.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/SlackAPI.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/SlackAPI.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/SlackAPI.m.o"]
+    description: "Compiling AppFeedback SlackAPI.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/SlackAPI.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/SlackAPI.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/SlackAPI.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/SlackAPI.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/UIPlaceHolderTextView.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/AppFeedback/UIPlaceHolderTextView.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/UIPlaceHolderTextView.m.o"]
+    description: "Compiling AppFeedback UIPlaceHolderTextView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/UIPlaceHolderTextView.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedback/UIPlaceHolderTextView.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/UIPlaceHolderTextView.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/UIPlaceHolderTextView.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/resource_bundle_accessor.m.o":
+    tool: clang
+    inputs: ["<AppFeedback-debug.module-resources>","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/resource_bundle_accessor.m.o"]
+    description: "Compiling AppFeedback resource_bundle_accessor.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedback","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-include","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.h","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/resource_bundle_accessor.m.d","-c","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DerivedSources/resource_bundle_accessor.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/resource_bundle_accessor.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/resource_bundle_accessor.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/AppFeedbackTests.m.o":
+    tool: clang
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/AppFeedbackTests.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/AppFeedbackTests.m.o"]
+    description: "Compiling AppFeedbackTests AppFeedbackTests.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.15","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedbackTests","-I","/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/include","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodule-map-file=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/module.modulemap","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/AppFeedbackTests.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/AppFeedbackTests.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/AppFeedbackTests.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/AppFeedbackTests.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/ConfigTests.m.o":
+    tool: clang
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/ConfigTests.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/ConfigTests.m.o"]
+    description: "Compiling AppFeedbackTests ConfigTests.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.15","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedbackTests","-I","/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/include","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodule-map-file=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/module.modulemap","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/ConfigTests.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/ConfigTests.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/ConfigTests.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/ConfigTests.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/StringUtilTests.m.o":
+    tool: clang
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/StringUtilTests.m"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/StringUtilTests.m.o"]
+    description: "Compiling AppFeedbackTests StringUtilTests.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.15","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=AppFeedbackTests","-I","/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/include","-I","/Users/kkamakur/AppFeedback-ios/AppFeedback/include","-fmodule-map-file=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/module.modulemap","-fmodules-cache-path=/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/StringUtilTests.m.d","-c","/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/StringUtilTests.m","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/StringUtilTests.m.o"]
+    deps: "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/StringUtilTests.m.d"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Base.lproj/Main.storyboard":
+    tool: copy-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedback/Base.lproj/Main.storyboard"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Base.lproj/Main.storyboard"]
+    description: "Copying /Users/kkamakur/AppFeedback-ios/AppFeedback/Base.lproj/Main.storyboard"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/FloatingButton.xib":
+    tool: copy-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButton.xib"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/FloatingButton.xib"]
+    description: "Copying /Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButton.xib"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Images.xcassets":
+    tool: copy-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedback/Images.xcassets/"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Images.xcassets/"]
+    description: "Copying /Users/kkamakur/AppFeedback-ios/AppFeedback/Images.xcassets"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Info.plist":
+    tool: copy-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Info.plist"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Info.plist"]
+    description: "Copying /Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Info.plist"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/en.lproj/Localizable.strings":
+    tool: copy-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedback/en.lproj/Localizable.strings"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/en.lproj/Localizable.strings"]
+    description: "Copying /Users/kkamakur/AppFeedback-ios/AppFeedback/en.lproj/Localizable.strings"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/en.lproj/Main.strings":
+    tool: copy-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedback/en.lproj/Main.strings"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/en.lproj/Main.strings"]
+    description: "Copying /Users/kkamakur/AppFeedback-ios/AppFeedback/en.lproj/Main.strings"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/ja.lproj/Localizable.strings":
+    tool: copy-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedback/ja.lproj/Localizable.strings"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/ja.lproj/Localizable.strings"]
+    description: "Copying /Users/kkamakur/AppFeedback-ios/AppFeedback/ja.lproj/Localizable.strings"
+
+  "/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/ja.lproj/Main.strings":
+    tool: copy-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedback/ja.lproj/Main.strings"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/ja.lproj/Main.strings"]
+    description: "Copying /Users/kkamakur/AppFeedback-ios/AppFeedback/ja.lproj/Main.strings"
+
+  "<AppFeedback-debug.module>":
+    tool: phony
+    inputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AnimationUtil.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AppFeedbackInternal.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AutoResizeTextView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/CaptureOverlayWindow.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Color.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Config.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DeviceUtil.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawViewController.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ExpansionButton.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonController.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonControllerIOS9.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonOuterView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonWindow.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingProgressView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/NSURL+Sizse.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/OverlayWindow.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/PopUpTransitionAnimater.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ReportViewController.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenCapture.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenVideoCaptureSession.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/SlackAPI.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/UIPlaceHolderTextView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/resource_bundle_accessor.m.o"]
+    outputs: ["<AppFeedback-debug.module>"]
+
+  "<AppFeedbackPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackPackageTests.xctest/Contents/MacOS/AppFeedbackPackageTests"]
+    outputs: ["<AppFeedbackPackageTests-debug.test>"]
+
+  "<AppFeedbackTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/AppFeedbackTests.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/ConfigTests.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/StringUtilTests.m.o"]
+    outputs: ["<AppFeedbackTests-debug.module>"]
+
+  "AppFeedback-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/en.lproj/Localizable.strings","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Base.lproj/Main.storyboard","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/ja.lproj/Main.strings","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/ja.lproj/Localizable.strings","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/FloatingButton.xib","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/en.lproj/Main.strings","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Images.xcassets/","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback_AppFeedback.bundle/Info.plist"]
+    outputs: ["<AppFeedback-debug.module-resources>"]
+
+  "C.AppFeedbackPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AnimationUtil.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AppFeedbackInternal.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/AutoResizeTextView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/CaptureOverlayWindow.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Color.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/Config.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DeviceUtil.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/DrawViewController.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ExpansionButton.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonController.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonControllerIOS9.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonOuterView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingButtonWindow.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/FloatingProgressView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/NSURL+Sizse.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/OverlayWindow.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/PopUpTransitionAnimater.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ReportViewController.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenCapture.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/ScreenVideoCaptureSession.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/SlackAPI.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/UIPlaceHolderTextView.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedback.build/resource_bundle_accessor.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/AppFeedbackTests.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/ConfigTests.m.o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackTests.build/StringUtilTests.m.o"]
+    outputs: ["/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackPackageTests.xctest/Contents/MacOS/AppFeedbackPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/AppFeedbackPackageTests.xctest/Contents/MacOS/AppFeedbackPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug","-o","/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackPackageTests.xctest/Contents/MacOS/AppFeedbackPackageTests","-module-name","AppFeedbackPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/kkamakur/AppFeedback-ios/.build/x86_64-apple-macosx/debug/AppFeedbackPackageTests.product/Objects.LinkFileList","-runtime-compatibility-version","none","-target","x86_64-apple-macosx10.15","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/kkamakur/AppFeedback-ios/AppFeedback/","/Users/kkamakur/AppFeedback-ios/AppFeedbackTests/","/Users/kkamakur/AppFeedback-ios/Package.swift","/Users/kkamakur/AppFeedback-ios/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

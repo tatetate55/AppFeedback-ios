@@ -1,0 +1,129 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedbackPackageTests.xctest\/Contents\/MacOS\/AppFeedbackPackageTests",
+      "packageName" : "AppFeedback",
+      "productName" : "AppFeedbackPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/Base.lproj\/Main.storyboard" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/AppFeedback\/Base.lproj\/Main.storyboard"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/Base.lproj\/Main.storyboard"
+        }
+      ]
+    },
+    "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/en.lproj\/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/AppFeedback\/en.lproj\/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/en.lproj\/Localizable.strings"
+        }
+      ]
+    },
+    "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/en.lproj\/Main.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/AppFeedback\/en.lproj\/Main.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/en.lproj\/Main.strings"
+        }
+      ]
+    },
+    "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/FloatingButton.xib" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/AppFeedback\/FloatingButton.xib"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/FloatingButton.xib"
+        }
+      ]
+    },
+    "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/Images.xcassets" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/AppFeedback\/Images.xcassets"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/Images.xcassets"
+        }
+      ]
+    },
+    "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback.build\/Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/Info.plist"
+        }
+      ]
+    },
+    "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/ja.lproj\/Localizable.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/AppFeedback\/ja.lproj\/Localizable.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/ja.lproj\/Localizable.strings"
+        }
+      ]
+    },
+    "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/ja.lproj\/Main.strings" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/AppFeedback\/ja.lproj\/Main.strings"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Users\/kkamakur\/AppFeedback-ios\/.build\/x86_64-apple-macosx\/debug\/AppFeedback_AppFeedback.bundle\/ja.lproj\/Main.strings"
+        }
+      ]
+    }
+  },
+  "swiftTargetMap" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,1251 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.28)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk
+iPhoneOS14.3.sdk
+/Users/kkamakur/Library/Developer/Xcode/DerivedData/AppFeedback-gkebxubcwhzybaeyxeyfvvlbagdd/Build/Intermediates.noindex/ArchiveIntermediates/AppFeedback/IntermediateBuildFilesPath/AppFeedback.build/Release-iphoneos/AppFeedback.build/DerivedSources/AppFeedback_vers.c
+/Users/kkamakur/AppFeedback-ios
+-[DrawViewController viewDidLoad]
+-[DrawViewController didReceiveMemoryWarning]
+-[DrawViewController undo:]
+-[DrawViewController finishPannig:]
+-[DrawViewController closeButtonTapped:]
+-[DrawViewController toolBar]
+-[DrawViewController setToolBar:]
+-[DrawViewController imageView]
+-[DrawViewController setImageView:]
+-[DrawViewController drawingView]
+-[DrawViewController setDrawingView:]
+-[DrawViewController clearButton]
+-[DrawViewController setClearButton:]
+-[DrawViewController originImage]
+-[DrawViewController setOriginImage:]
+-[DrawViewController editingImage]
+-[DrawViewController setEditingImage:]
+-[DrawViewController startPoint]
+-[DrawViewController setStartPoint:]
+-[DrawViewController currentPoint]
+-[DrawViewController setCurrentPoint:]
+-[DrawViewController .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_IVAR_$_DrawViewController._toolBar
+_OBJC_IVAR_$_DrawViewController._imageView
+_OBJC_IVAR_$_DrawViewController._drawingView
+_OBJC_IVAR_$_DrawViewController._clearButton
+_OBJC_IVAR_$_DrawViewController._originImage
+_OBJC_IVAR_$_DrawViewController._editingImage
+_OBJC_IVAR_$_DrawViewController._startPoint
+_OBJC_IVAR_$_DrawViewController._currentPoint
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_DrawViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_DrawViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_DrawViewDelegate
+__OBJC_PROTOCOL_$_DrawViewDelegate
+__OBJC_LABEL_PROTOCOL_$_DrawViewDelegate
+__OBJC_CLASS_PROTOCOLS_$_DrawViewController
+__OBJC_METACLASS_RO_$_DrawViewController
+__OBJC_$_INSTANCE_METHODS_DrawViewController
+__OBJC_$_INSTANCE_VARIABLES_DrawViewController
+__OBJC_$_PROP_LIST_DrawViewController
+__OBJC_CLASS_RO_$_DrawViewController
+/Users/kkamakur/AppFeedback-ios/AppFeedback/DrawViewController.m
+AppFeedback/DrawViewController.m
+AppFeedback/DrawViewController.h
+-[OverlayWindow init]
+-[OverlayWindow presentViewController:animated:completion:]
+___59-[OverlayWindow presentViewController:animated:completion:]_block_invoke
+___copy_helper_block_e8_32s40b
+___destroy_helper_block_e8_32s40s
+-[OverlayWindow pointInside:withEvent:]
+-[OverlayWindow monitorModal:]
+-[OverlayWindow modalTimer]
+-[OverlayWindow setModalTimer:]
+-[OverlayWindow shapeLayer]
+-[OverlayWindow setShapeLayer:]
+-[OverlayWindow .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+___block_descriptor_48_e8_32s40bs_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_IVAR_$_OverlayWindow._modalTimer
+_OBJC_IVAR_$_OverlayWindow._shapeLayer
+__OBJC_METACLASS_RO_$_OverlayWindow
+__OBJC_$_INSTANCE_METHODS_OverlayWindow
+__OBJC_$_INSTANCE_VARIABLES_OverlayWindow
+__OBJC_$_PROP_LIST_OverlayWindow
+__OBJC_CLASS_RO_$_OverlayWindow
+/Users/kkamakur/AppFeedback-ios/AppFeedback/OverlayWindow.m
+AppFeedback/OverlayWindow.m
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40b
+__59-[OverlayWindow presentViewController:animated:completion:]_block_invoke
+-[NSURL(Size) fileSize]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSURL_$_Size
+__OBJC_$_CATEGORY_NSURL_$_Size
+/Users/kkamakur/AppFeedback-ios/AppFeedback/NSURL+Sizse.m
+AppFeedback/NSURL+Sizse.m
++[AnimationUtil animateWithDuration:easing:]
++[AnimationUtil animateWithDuration:easing:completion:]
++[AnimationUtil animateWithDuration:delay:resolution:easing:completion:]
+___72+[AnimationUtil animateWithDuration:delay:resolution:easing:completion:]_block_invoke
+___72+[AnimationUtil animateWithDuration:delay:resolution:easing:completion:]_block_invoke_2
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
+___72+[AnimationUtil animateWithDuration:delay:resolution:easing:completion:]_block_invoke.3
++[AnimationUtil easeElasticOut:]
+___block_descriptor_48_e8_32bs_e5_v8?0l
+___block_descriptor_40_e8_32bs_e8_v12?0B8l
+__OBJC_$_CLASS_METHODS_AnimationUtil
+__OBJC_METACLASS_RO_$_AnimationUtil
+__OBJC_CLASS_RO_$_AnimationUtil
+/Users/kkamakur/AppFeedback-ios/AppFeedback/AnimationUtil.m
+AppFeedback/AnimationUtil.m
+__72+[AnimationUtil animateWithDuration:delay:resolution:easing:completion:]_block_invoke.3
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__72+[AnimationUtil animateWithDuration:delay:resolution:easing:completion:]_block_invoke_2
+__72+[AnimationUtil animateWithDuration:delay:resolution:easing:completion:]_block_invoke
+-[UIPlaceHolderTextView dealloc]
+-[UIPlaceHolderTextView awakeFromNib]
+-[UIPlaceHolderTextView initWithFrame:]
+-[UIPlaceHolderTextView textChanged:]
+-[UIPlaceHolderTextView setText:]
+-[UIPlaceHolderTextView drawRect:]
+-[UIPlaceHolderTextView placeholder]
+-[UIPlaceHolderTextView setPlaceholder:]
+-[UIPlaceHolderTextView placeholderColor]
+-[UIPlaceHolderTextView setPlaceholderColor:]
+-[UIPlaceHolderTextView placeHolderLabel]
+-[UIPlaceHolderTextView setPlaceHolderLabel:]
+-[UIPlaceHolderTextView .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_IVAR_$_UIPlaceHolderTextView._placeHolderLabel
+_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_IVAR_$_UIPlaceHolderTextView._placeholder
+_OBJC_IVAR_$_UIPlaceHolderTextView._placeholderColor
+__OBJC_METACLASS_RO_$_UIPlaceHolderTextView
+__OBJC_$_INSTANCE_METHODS_UIPlaceHolderTextView
+__OBJC_$_INSTANCE_VARIABLES_UIPlaceHolderTextView
+__OBJC_$_PROP_LIST_UIPlaceHolderTextView
+__OBJC_CLASS_RO_$_UIPlaceHolderTextView
+/Users/kkamakur/AppFeedback-ios/AppFeedback/UIPlaceHolderTextView.m
+AppFeedback/UIPlaceHolderTextView.m
+AppFeedback/UIPlaceHolderTextView.h
++[DeviceUtil appVersion]
++[DeviceUtil appBuildVersion]
++[DeviceUtil OSName]
++[DeviceUtil OSVersion]
++[DeviceUtil ModelCode]
++[DeviceUtil ModelName]
++[StringUtil match:string:]
++[StringUtil matchPattern:string:]
++[StringUtil matchPattern:string:ignoreCase:]
++[StringUtil makeRegularExpression:ignoreCase:]
+_OBJC_CLASSLIST_REFERENCES_$_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_CLASSLIST_REFERENCES_$_.330
+_OBJC_SELECTOR_REFERENCES_.332
+__OBJC_$_CLASS_METHODS_DeviceUtil
+__OBJC_METACLASS_RO_$_DeviceUtil
+__OBJC_CLASS_RO_$_DeviceUtil
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_SELECTOR_REFERENCES_.343
+_OBJC_SELECTOR_REFERENCES_.345
+_OBJC_CLASSLIST_REFERENCES_$_.346
+_OBJC_SELECTOR_REFERENCES_.348
+_OBJC_SELECTOR_REFERENCES_.350
+_OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.354
+_OBJC_SELECTOR_REFERENCES_.356
+_OBJC_SELECTOR_REFERENCES_.358
+_OBJC_SELECTOR_REFERENCES_.360
+_OBJC_SELECTOR_REFERENCES_.362
+_OBJC_CLASSLIST_REFERENCES_$_.363
+_OBJC_SELECTOR_REFERENCES_.365
+__OBJC_$_CLASS_METHODS_StringUtil
+__OBJC_METACLASS_RO_$_StringUtil
+__OBJC_CLASS_RO_$_StringUtil
+/Users/kkamakur/AppFeedback-ios/AppFeedback/DeviceUtil.m
+AppFeedback/DeviceUtil.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[AutoResizeTextView awakeFromNib]
+-[AutoResizeTextView dealloc]
+-[AutoResizeTextView layoutSubviews]
+-[AutoResizeTextView autoResizeTextViewtextChanged:]
+-[AutoResizeTextView minHeight]
+-[AutoResizeTextView setMinHeight:]
+-[AutoResizeTextView heightConstraint]
+-[AutoResizeTextView setHeightConstraint:]
+-[AutoResizeTextView .cxx_destruct]
+_OBJC_IVAR_$_AutoResizeTextView._minHeight
+_OBJC_IVAR_$_AutoResizeTextView._heightConstraint
+__OBJC_METACLASS_RO_$_AutoResizeTextView
+__OBJC_$_INSTANCE_METHODS_AutoResizeTextView
+__OBJC_$_INSTANCE_VARIABLES_AutoResizeTextView
+__OBJC_$_PROP_LIST_AutoResizeTextView
+__OBJC_CLASS_RO_$_AutoResizeTextView
+/Users/kkamakur/AppFeedback-ios/AppFeedback/AutoResizeTextView.m
+AppFeedback/AutoResizeTextView.m
+AppFeedback/AutoResizeTextView.h
+-[ExpansionButton setPerceivableAreaWithLeftArea:rightArea:]
+-[ExpansionButton pointInside:withEvent:]
+-[ExpansionButton leftPerceivableArea]
+-[ExpansionButton setLeftPerceivableArea:]
+-[ExpansionButton rightPerceivableArea]
+-[ExpansionButton setRightPerceivableArea:]
+_OBJC_IVAR_$_ExpansionButton._leftPerceivableArea
+_OBJC_IVAR_$_ExpansionButton._rightPerceivableArea
+__OBJC_METACLASS_RO_$_ExpansionButton
+__OBJC_$_INSTANCE_METHODS_ExpansionButton
+__OBJC_$_INSTANCE_VARIABLES_ExpansionButton
+__OBJC_$_PROP_LIST_ExpansionButton
+__OBJC_CLASS_RO_$_ExpansionButton
+/Users/kkamakur/AppFeedback-ios/AppFeedback/ExpansionButton.m
+AppFeedback/ExpansionButton.m
+-[FloatingProgressView startProgressWithSecs:]
+-[FloatingProgressView endProgress]
+-[FloatingProgressView startAnimationWithSecs:]
+-[FloatingProgressView makeCircleAtLocation:radius:percent:]
+-[FloatingProgressView shapeLayer]
+-[FloatingProgressView setShapeLayer:]
+-[FloatingProgressView .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_CLASSLIST_REFERENCES_$_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_CLASSLIST_REFERENCES_$_.56
+_OBJC_IVAR_$_FloatingProgressView._shapeLayer
+__OBJC_METACLASS_RO_$_FloatingProgressView
+__OBJC_$_INSTANCE_METHODS_FloatingProgressView
+__OBJC_$_INSTANCE_VARIABLES_FloatingProgressView
+__OBJC_$_PROP_LIST_FloatingProgressView
+__OBJC_CLASS_RO_$_FloatingProgressView
+/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingProgressView.m
+AppFeedback/FloatingProgressView.m
++[Color navBarTint]
+__OBJC_$_CLASS_METHODS_Color
+__OBJC_METACLASS_RO_$_Color
+__OBJC_CLASS_RO_$_Color
+/Users/kkamakur/AppFeedback-ios/AppFeedback/Color.m
+AppFeedback/Color.m
++[ScreenCapture captureImageWithScale:size:baseOrientation:]
++[ScreenCapture orientationIndex:]
++[ScreenCapture transformWith:imageOrientation:baseSize:]
++[ScreenCapture captureImage]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+__OBJC_$_CLASS_METHODS_ScreenCapture
+__OBJC_METACLASS_RO_$_ScreenCapture
+__OBJC_CLASS_RO_$_ScreenCapture
+/Users/kkamakur/AppFeedback-ios/AppFeedback/ScreenCapture.m
+AppFeedback/ScreenCapture.m
+-[FloatingButtonWindow init]
+-[FloatingButtonWindow pointInside:withEvent:]
+-[FloatingButtonWindow buttonView]
+-[FloatingButtonWindow setButtonView:]
+-[FloatingButtonWindow .cxx_destruct]
+_OBJC_IVAR_$_FloatingButtonWindow._buttonView
+__OBJC_METACLASS_RO_$_FloatingButtonWindow
+__OBJC_$_INSTANCE_METHODS_FloatingButtonWindow
+__OBJC_$_INSTANCE_VARIABLES_FloatingButtonWindow
+__OBJC_$_PROP_LIST_FloatingButtonWindow
+__OBJC_CLASS_RO_$_FloatingButtonWindow
+/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonWindow.m
+AppFeedback/FloatingButtonWindow.m
+AppFeedback/FloatingButtonWindow.h
+-[ScreenVideoCaptureSession init]
+-[ScreenVideoCaptureSession interval]
+-[ScreenVideoCaptureSession cleanupWriter]
+-[ScreenVideoCaptureSession dealloc]
+-[ScreenVideoCaptureSession tempFileURL:]
+-[ScreenVideoCaptureSession clearFile:]
+-[ScreenVideoCaptureSession setUpWriter]
+-[ScreenVideoCaptureSession fixedImageScale]
+-[ScreenVideoCaptureSession runRecordFrameLoop:]
+___48-[ScreenVideoCaptureSession runRecordFrameLoop:]_block_invoke
+___copy_helper_block_e8_32s
+___48-[ScreenVideoCaptureSession runRecordFrameLoop:]_block_invoke.89
+-[ScreenVideoCaptureSession recordFrame]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___40-[ScreenVideoCaptureSession recordFrame]_block_invoke
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
+-[ScreenVideoCaptureSession completeRecordingSession]
+___53-[ScreenVideoCaptureSession completeRecordingSession]_block_invoke
+___53-[ScreenVideoCaptureSession completeRecordingSession]_block_invoke_2
+___copy_helper_block_e8_32s40s
+___53-[ScreenVideoCaptureSession completeRecordingSession]_block_invoke.123
+-[ScreenVideoCaptureSession startRecordingUntil:callback:]
+-[ScreenVideoCaptureSession stopRecording]
+-[ScreenVideoCaptureSession timerFired:]
+-[ScreenVideoCaptureSession writeVideoFrameAtTime:image:]
+-[ScreenVideoCaptureSession recording]
+-[ScreenVideoCaptureSession setRecording:]
+-[ScreenVideoCaptureSession startedAt]
+-[ScreenVideoCaptureSession setStartedAt:]
+-[ScreenVideoCaptureSession outputFile]
+-[ScreenVideoCaptureSession setOutputFile:]
+-[ScreenVideoCaptureSession initOrientation]
+-[ScreenVideoCaptureSession setInitOrientation:]
+-[ScreenVideoCaptureSession initScreenSize]
+-[ScreenVideoCaptureSession setInitScreenSize:]
+-[ScreenVideoCaptureSession initScreenScale]
+-[ScreenVideoCaptureSession setInitScreenScale:]
+-[ScreenVideoCaptureSession callback]
+-[ScreenVideoCaptureSession setCallback:]
+-[ScreenVideoCaptureSession frameRate]
+-[ScreenVideoCaptureSession setFrameRate:]
+-[ScreenVideoCaptureSession videoWriter]
+-[ScreenVideoCaptureSession setVideoWriter:]
+-[ScreenVideoCaptureSession videoWriterInput]
+-[ScreenVideoCaptureSession setVideoWriterInput:]
+-[ScreenVideoCaptureSession avAdaptor]
+-[ScreenVideoCaptureSession setAvAdaptor:]
+-[ScreenVideoCaptureSession timer]
+-[ScreenVideoCaptureSession setTimer:]
+-[ScreenVideoCaptureSession .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_CLASSLIST_REFERENCES_$_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_CLASSLIST_REFERENCES_$_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_CLASSLIST_REFERENCES_$_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+___block_descriptor_40_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_CLASSLIST_REFERENCES_$_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+___block_descriptor_48_e8_32s40r_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_CLASSLIST_REFERENCES_$_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+___block_descriptor_48_e8_32s40s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_CLASSLIST_REFERENCES_$_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.140
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_CLASSLIST_REFERENCES_$_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.177
+__OBJC_METACLASS_RO_$_ScreenVideoCaptureSession
+__OBJC_$_INSTANCE_METHODS_ScreenVideoCaptureSession
+_OBJC_IVAR_$_ScreenVideoCaptureSession._recording
+_OBJC_IVAR_$_ScreenVideoCaptureSession._frameRate
+_OBJC_IVAR_$_ScreenVideoCaptureSession._startedAt
+_OBJC_IVAR_$_ScreenVideoCaptureSession._outputFile
+_OBJC_IVAR_$_ScreenVideoCaptureSession._initOrientation
+_OBJC_IVAR_$_ScreenVideoCaptureSession._initScreenScale
+_OBJC_IVAR_$_ScreenVideoCaptureSession._callback
+_OBJC_IVAR_$_ScreenVideoCaptureSession._videoWriter
+_OBJC_IVAR_$_ScreenVideoCaptureSession._videoWriterInput
+_OBJC_IVAR_$_ScreenVideoCaptureSession._avAdaptor
+_OBJC_IVAR_$_ScreenVideoCaptureSession._timer
+_OBJC_IVAR_$_ScreenVideoCaptureSession._initScreenSize
+__OBJC_$_INSTANCE_VARIABLES_ScreenVideoCaptureSession
+__OBJC_$_PROP_LIST_ScreenVideoCaptureSession
+__OBJC_CLASS_RO_$_ScreenVideoCaptureSession
+/Users/kkamakur/AppFeedback-ios/AppFeedback/ScreenVideoCaptureSession.m
+AppFeedback/ScreenVideoCaptureSession.m
+AppFeedback/ScreenVideoCaptureSession.h
+CFRangeMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+__53-[ScreenVideoCaptureSession completeRecordingSession]_block_invoke.123
+__copy_helper_block_e8_32s40s
+__53-[ScreenVideoCaptureSession completeRecordingSession]_block_invoke_2
+__53-[ScreenVideoCaptureSession completeRecordingSession]_block_invoke
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
+__40-[ScreenVideoCaptureSession recordFrame]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__48-[ScreenVideoCaptureSession runRecordFrameLoop:]_block_invoke.89
+__copy_helper_block_e8_32s
+__48-[ScreenVideoCaptureSession runRecordFrameLoop:]_block_invoke
+-[FloatingButtonView setButtonState:]
+-[FloatingButtonView startProgressWithSecs:]
+-[FloatingButtonView endProgress]
+-[FloatingButtonView pointInside:withEvent:]
+-[FloatingButtonView buttonState]
+-[FloatingButtonView feedbackImage]
+-[FloatingButtonView setFeedbackImage:]
+-[FloatingButtonView stopImage]
+-[FloatingButtonView setStopImage:]
+-[FloatingButtonView progressView]
+-[FloatingButtonView setProgressView:]
+-[FloatingButtonView .cxx_destruct]
+_OBJC_IVAR_$_FloatingButtonView._buttonState
+_OBJC_IVAR_$_FloatingButtonView._feedbackImage
+_OBJC_IVAR_$_FloatingButtonView._stopImage
+_OBJC_IVAR_$_FloatingButtonView._progressView
+__OBJC_METACLASS_RO_$_FloatingButtonView
+__OBJC_$_INSTANCE_METHODS_FloatingButtonView
+__OBJC_$_INSTANCE_VARIABLES_FloatingButtonView
+__OBJC_$_PROP_LIST_FloatingButtonView
+__OBJC_CLASS_RO_$_FloatingButtonView
+/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonView.m
+AppFeedback/FloatingButtonView.m
+AppFeedback/FloatingButtonView.h
++[AppFeedback shared]
++[AppFeedback frameworkBundle]
++[AppFeedback configureWithSlackToken:slackChannel:]
++[AppFeedback configureWithSlackChannel:]
++[AppFeedback feedbackCategories]
++[AppFeedback setFeedbackCategories:]
++[AppFeedback slackApiUrl]
++[AppFeedback setSlackApiUrl:]
++[AppFeedback isHidden]
++[AppFeedback setIsHidden:]
++[AppFeedback showFeedbackDialog]
++[AppFeedback readyFeedbackGesture]
++[AppFeedback readyScreenShot]
++[AppFeedback startRecording]
++[AppFeedback endRecording]
+-[AppFeedback init]
+-[AppFeedback willConnect]
+-[AppFeedback configureWithSlackToken:slackChannel:]
+-[AppFeedback createFloatingViewController]
+-[AppFeedback setFeedbackCategories:]
+-[AppFeedback getFeedbackCategories]
+-[AppFeedback readyFeedbackGesture]
+___35-[AppFeedback readyFeedbackGesture]_block_invoke
+-[AppFeedback floatingButtinWindow]
+-[AppFeedback p_handleLongPressGesture:]
+-[AppFeedback p_removeLongPressGesture:]
+-[AppFeedback setIsHidden:]
+-[AppFeedback updateFloatingButtonState]
+-[AppFeedback showFeedbackDialog]
+-[AppFeedback showFeedbackDialogWithImage:video:]
+___49-[AppFeedback showFeedbackDialogWithImage:video:]_block_invoke
+-[AppFeedback readyScreenShot]
+___30-[AppFeedback readyScreenShot]_block_invoke
+-[AppFeedback startRecording]
+___29-[AppFeedback startRecording]_block_invoke
+___29-[AppFeedback startRecording]_block_invoke_2
+-[AppFeedback endRecording]
+-[AppFeedback handleScreenShotNotification]
+-[AppFeedback presentViewController:animated:completion:]
+-[AppFeedback navigationController]
+-[AppFeedback floatingButtonTapped]
+-[AppFeedback reportViewControllerClosed]
+-[AppFeedback config]
+-[AppFeedback setConfig:]
+-[AppFeedback overlayWindow]
+-[AppFeedback setOverlayWindow:]
+-[AppFeedback captureOverlayWindow]
+-[AppFeedback setCaptureOverlayWindow:]
+-[AppFeedback floatingButtonController]
+-[AppFeedback setFloatingButtonController:]
+-[AppFeedback screenVideoCaptureSession]
+-[AppFeedback setScreenVideoCaptureSession:]
+-[AppFeedback isHidden]
+-[AppFeedback feedbackCategories]
+-[AppFeedback feedbackDialogPresented]
+-[AppFeedback setFeedbackDialogPresented:]
+-[AppFeedback reportViewController]
+-[AppFeedback setReportViewController:]
+-[AppFeedback setNavigationController:]
+-[AppFeedback .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_sharedData
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_CLASSLIST_REFERENCES_$_.49
+_OBJC_CLASSLIST_REFERENCES_$_.52
+_OBJC_CLASSLIST_REFERENCES_$_.55
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_CLASSLIST_REFERENCES_$_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_CLASSLIST_REFERENCES_$_.86
+_OBJC_CLASSLIST_REFERENCES_$_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_CLASSLIST_REFERENCES_$_.130
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_CLASSLIST_REFERENCES_$_.145
+_OBJC_CLASSLIST_REFERENCES_$_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_SELECTOR_REFERENCES_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_CLASSLIST_REFERENCES_$_.173
+___block_descriptor_40_e8_32s_e24_v16?0"NSNotification"8l
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_CLASSLIST_REFERENCES_$_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_CLASSLIST_REFERENCES_$_.200
+___block_descriptor_32_e23_v16?0"UIAlertAction"8l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.205
+_OBJC_SELECTOR_REFERENCES_.207
+___block_descriptor_40_e8_32s_e27_v24?0"NSURL"8"NSError"16l
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_CLASSLIST_REFERENCES_$_.215
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.223
+__OBJC_$_CLASS_METHODS_AppFeedback
+__OBJC_$_PROTOCOL_REFS_FloatingButtonDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_FloatingButtonDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_FloatingButtonDelegate
+__OBJC_PROTOCOL_$_FloatingButtonDelegate
+__OBJC_LABEL_PROTOCOL_$_FloatingButtonDelegate
+__OBJC_$_PROTOCOL_REFS_ReportViewControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_ReportViewControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_ReportViewControllerDelegate
+__OBJC_PROTOCOL_$_ReportViewControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_ReportViewControllerDelegate
+__OBJC_CLASS_PROTOCOLS_$_AppFeedback
+__OBJC_$_CLASS_PROP_LIST_AppFeedback
+__OBJC_METACLASS_RO_$_AppFeedback
+__OBJC_$_INSTANCE_METHODS_AppFeedback
+_OBJC_IVAR_$_AppFeedback._isHidden
+_OBJC_IVAR_$_AppFeedback._feedbackDialogPresented
+_OBJC_IVAR_$_AppFeedback._config
+_OBJC_IVAR_$_AppFeedback._overlayWindow
+_OBJC_IVAR_$_AppFeedback._captureOverlayWindow
+_OBJC_IVAR_$_AppFeedback._floatingButtonController
+_OBJC_IVAR_$_AppFeedback._screenVideoCaptureSession
+_OBJC_IVAR_$_AppFeedback._feedbackCategories
+_OBJC_IVAR_$_AppFeedback._reportViewController
+_OBJC_IVAR_$_AppFeedback._navigationController
+__OBJC_$_INSTANCE_VARIABLES_AppFeedback
+__OBJC_$_PROP_LIST_AppFeedback
+__OBJC_CLASS_RO_$_AppFeedback
+/Users/kkamakur/AppFeedback-ios/AppFeedback/AppFeedbackInternal.m
+AppFeedback/AppFeedbackInternal.m
+__29-[AppFeedback startRecording]_block_invoke_2
+__29-[AppFeedback startRecording]_block_invoke
+__30-[AppFeedback readyScreenShot]_block_invoke
+__49-[AppFeedback showFeedbackDialogWithImage:video:]_block_invoke
+__35-[AppFeedback readyFeedbackGesture]_block_invoke
+-[FloatingButtonController init]
+-[FloatingButtonController hidden]
+-[FloatingButtonController setHidden:]
+-[FloatingButtonController setButtonState:]
+-[FloatingButtonController loadView]
+-[FloatingButtonController viewDidLoad]
+-[FloatingButtonController didReceiveMemoryWarning]
+-[FloatingButtonController viewDidLayoutSubviews]
+-[FloatingButtonController snapButtonToSocket]
+-[FloatingButtonController sockets]
+-[FloatingButtonController pandDidFire:]
+___40-[FloatingButtonController pandDidFire:]_block_invoke
+-[FloatingButtonController buttonTapped:]
+-[FloatingButtonController viewWillTransitionToSize:withTransitionCoordinator:]
+___79-[FloatingButtonController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+___79-[FloatingButtonController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.118
+-[FloatingButtonController startProgressWithSecs:]
+-[FloatingButtonController endProgress]
+-[FloatingButtonController buttonState]
+-[FloatingButtonController window]
+-[FloatingButtonController setWindow:]
+-[FloatingButtonController delegate]
+-[FloatingButtonController setDelegate:]
+-[FloatingButtonController buttonView]
+-[FloatingButtonController setButtonView:]
+-[FloatingButtonController .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_CLASSLIST_REFERENCES_$_.68
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_CLASSLIST_REFERENCES_$_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_CLASSLIST_REFERENCES_$_.96
+_OBJC_CLASSLIST_REFERENCES_$_.107
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+___block_descriptor_40_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8l
+___block_descriptor_32_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8l
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_IVAR_$_FloatingButtonController._buttonState
+_OBJC_IVAR_$_FloatingButtonController._window
+_OBJC_IVAR_$_FloatingButtonController._delegate
+_OBJC_IVAR_$_FloatingButtonController._buttonView
+__OBJC_METACLASS_RO_$_FloatingButtonController
+__OBJC_$_INSTANCE_METHODS_FloatingButtonController
+__OBJC_$_INSTANCE_VARIABLES_FloatingButtonController
+__OBJC_$_PROP_LIST_FloatingButtonController
+__OBJC_CLASS_RO_$_FloatingButtonController
+/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonController.m
+AppFeedback/FloatingButtonController.m
+AppFeedback/FloatingButtonController.h
+__79-[FloatingButtonController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.118
+__79-[FloatingButtonController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+__40-[FloatingButtonController pandDidFire:]_block_invoke
+-[DrawView initWithCoder:]
+-[DrawView drawRect:]
+-[DrawView transformViewToImage]
+-[DrawView linkUIImageView:]
+-[DrawView touchesBegan:withEvent:]
+-[DrawView touchesMoved:withEvent:]
+-[DrawView touchesEnded:withEvent:]
+-[DrawView delegate]
+-[DrawView setDelegate:]
+-[DrawView imageView]
+-[DrawView setImageView:]
+-[DrawView panningStartPoint]
+-[DrawView setPanningStartPoint:]
+-[DrawView panningRect]
+-[DrawView setPanningRect:]
+-[DrawView lineWidthRatio]
+-[DrawView setLineWidthRatio:]
+-[DrawView .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_IVAR_$_DrawView._delegate
+_OBJC_IVAR_$_DrawView._imageView
+_OBJC_IVAR_$_DrawView._panningStartPoint
+_OBJC_IVAR_$_DrawView._panningRect
+_OBJC_IVAR_$_DrawView._lineWidthRatio
+__OBJC_METACLASS_RO_$_DrawView
+__OBJC_$_INSTANCE_METHODS_DrawView
+__OBJC_$_INSTANCE_VARIABLES_DrawView
+__OBJC_$_PROP_LIST_DrawView
+__OBJC_CLASS_RO_$_DrawView
+/Users/kkamakur/AppFeedback-ios/AppFeedback/DrawView.m
+AppFeedback/DrawView.m
+AppFeedback/DrawView.h
+-[PopUpTransitionAnimater initWithPresenting:]
+-[PopUpTransitionAnimater init]
+-[PopUpTransitionAnimater transitionDuration:]
+-[PopUpTransitionAnimater animateTransition:]
+___45-[PopUpTransitionAnimater animateTransition:]_block_invoke
+___45-[PopUpTransitionAnimater animateTransition:]_block_invoke.19
+___45-[PopUpTransitionAnimater animateTransition:]_block_invoke_2
+___45-[PopUpTransitionAnimater animateTransition:]_block_invoke.24
+___copy_helper_block_e8_32s40s48s56s
+___destroy_helper_block_e8_32s40s48s56s
+-[PopUpTransitionAnimater presenting]
+-[PopUpTransitionAnimater setPresenting:]
+___block_descriptor_48_e8_32s_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.20
+___block_descriptor_56_e8_32s_e8_v16?0d8l
+___block_descriptor_64_e8_32s40s48s56s_e8_v12?0B8l
+__OBJC_$_PROTOCOL_REFS_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerAnimatedTransitioning
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerAnimatedTransitioning
+__OBJC_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+__OBJC_LABEL_PROTOCOL_$_UIViewControllerAnimatedTransitioning
+__OBJC_CLASS_PROTOCOLS_$_PopUpTransitionAnimater
+__OBJC_METACLASS_RO_$_PopUpTransitionAnimater
+__OBJC_$_INSTANCE_METHODS_PopUpTransitionAnimater
+_OBJC_IVAR_$_PopUpTransitionAnimater._presenting
+__OBJC_$_INSTANCE_VARIABLES_PopUpTransitionAnimater
+__OBJC_$_PROP_LIST_PopUpTransitionAnimater
+__OBJC_CLASS_RO_$_PopUpTransitionAnimater
+/Users/kkamakur/AppFeedback-ios/AppFeedback/PopUpTransitionAnimater.m
+AppFeedback/PopUpTransitionAnimater.m
+__destroy_helper_block_e8_32s40s48s56s
+__copy_helper_block_e8_32s40s48s56s
+__45-[PopUpTransitionAnimater animateTransition:]_block_invoke.24
+__45-[PopUpTransitionAnimater animateTransition:]_block_invoke_2
+__45-[PopUpTransitionAnimater animateTransition:]_block_invoke.19
+__45-[PopUpTransitionAnimater animateTransition:]_block_invoke
+-[Config init]
+-[Config loadInfoPlist]
+-[Config isValid]
+-[Config loadInfoPlistDic:]
+-[Config getRequiredKey:key:]
+-[Config categories]
+-[Config setCategories:]
+-[Config slackApiUrl]
+-[Config setSlackApiUrl:]
+-[Config slackToken]
+-[Config setSlackToken:]
+-[Config slackChannel]
+-[Config setSlackChannel:]
+-[Config branchName]
+-[Config setBranchName:]
+-[Config .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.24
+__OBJC_METACLASS_RO_$_Config
+__OBJC_$_INSTANCE_METHODS_Config
+_OBJC_IVAR_$_Config._categories
+_OBJC_IVAR_$_Config._slackApiUrl
+_OBJC_IVAR_$_Config._slackToken
+_OBJC_IVAR_$_Config._slackChannel
+_OBJC_IVAR_$_Config._branchName
+__OBJC_$_INSTANCE_VARIABLES_Config
+__OBJC_$_PROP_LIST_Config
+__OBJC_CLASS_RO_$_Config
+/Users/kkamakur/AppFeedback-ios/AppFeedback/Config.m
+AppFeedback/Config.m
+AppFeedback/Config.h
+-[FloatingButtonControllerIOS9 viewDidLoad]
+-[FloatingButtonControllerIOS9 updateStatusBar:]
+-[FloatingButtonControllerIOS9 preferredStatusBarStyle]
+-[FloatingButtonControllerIOS9 prefersStatusBarHidden]
+-[FloatingButtonControllerIOS9 vcForStatusBarHidden:]
+-[FloatingButtonControllerIOS9 vcForStatusBarStyle:]
+__OBJC_METACLASS_RO_$_FloatingButtonControllerIOS9
+__OBJC_$_INSTANCE_METHODS_FloatingButtonControllerIOS9
+__OBJC_CLASS_RO_$_FloatingButtonControllerIOS9
+/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonControllerIOS9.m
+AppFeedback/FloatingButtonControllerIOS9.m
+-[FloatingButtonOuterView pointInside:withEvent:]
+-[FloatingButtonOuterView buttonView]
+-[FloatingButtonOuterView setButtonView:]
+-[FloatingButtonOuterView .cxx_destruct]
+_OBJC_IVAR_$_FloatingButtonOuterView._buttonView
+__OBJC_METACLASS_RO_$_FloatingButtonOuterView
+__OBJC_$_INSTANCE_METHODS_FloatingButtonOuterView
+__OBJC_$_INSTANCE_VARIABLES_FloatingButtonOuterView
+__OBJC_$_PROP_LIST_FloatingButtonOuterView
+__OBJC_CLASS_RO_$_FloatingButtonOuterView
+/Users/kkamakur/AppFeedback-ios/AppFeedback/FloatingButtonOuterView.m
+AppFeedback/FloatingButtonOuterView.m
+AppFeedback/FloatingButtonOuterView.h
+-[ReportViewController viewDidLoad]
+-[ReportViewController viewWillAppear:]
+-[ReportViewController viewWillDisappear:]
+-[ReportViewController p_close]
+___31-[ReportViewController p_close]_block_invoke
+-[ReportViewController p_close:]
+___32-[ReportViewController p_close:]_block_invoke
+-[ReportViewController p_setupView]
+-[ReportViewController p_setupImageView]
+-[ReportViewController hiddenButton]
+-[ReportViewController closeKeyboard]
+-[ReportViewController p_createAlertWithTitle:message:cancelButtonTitle:destructiveButtonTitle:otherButtonTitle:tapBlock:]
+___122-[ReportViewController p_createAlertWithTitle:message:cancelButtonTitle:destructiveButtonTitle:otherButtonTitle:tapBlock:]_block_invoke
+___122-[ReportViewController p_createAlertWithTitle:message:cancelButtonTitle:destructiveButtonTitle:otherButtonTitle:tapBlock:]_block_invoke.144
+___122-[ReportViewController p_createAlertWithTitle:message:cancelButtonTitle:destructiveButtonTitle:otherButtonTitle:tapBlock:]_block_invoke_2
+-[ReportViewController p_takeScreenShot:]
+-[ReportViewController p_sendMessage]
+-[ReportViewController p_sendMessage:videoPath:]
+___48-[ReportViewController p_sendMessage:videoPath:]_block_invoke
+___48-[ReportViewController p_sendMessage:videoPath:]_block_invoke_2
+-[ReportViewController enableActivityIndicator:]
+-[ReportViewController setTextData:textDictionary:boundary:]
+-[ReportViewController setImageData:imageData:videoPath:boundary:]
+-[ReportViewController scrollToTextViewCaret:]
+-[ReportViewController generateVideoPreviewImage:]
+-[ReportViewController didTapOK:]
+___33-[ReportViewController didTapOK:]_block_invoke
+___33-[ReportViewController didTapOK:]_block_invoke_2
+___33-[ReportViewController didTapOK:]_block_invoke_3
+-[ReportViewController didTapCancel:]
+-[ReportViewController videoButtonTapped:]
+___42-[ReportViewController videoButtonTapped:]_block_invoke
+___42-[ReportViewController videoButtonTapped:]_block_invoke_2
+-[ReportViewController playButtonTapped:]
+___41-[ReportViewController playButtonTapped:]_block_invoke
+-[ReportViewController closeKeyboardButtonTapped:]
+-[ReportViewController textFieldShouldReturn:]
+-[ReportViewController keyboardWillChange:]
+-[ReportViewController keyboardWillHidden:]
+-[ReportViewController textFieldDidBeginEditing:]
+-[ReportViewController textFieldDidEndEditing:]
+-[ReportViewController textViewShouldBeginEditing:]
+-[ReportViewController textViewDidChange:]
+-[ReportViewController textViewShouldEndEditing:]
+-[ReportViewController prepareForSegue:sender:]
+-[ReportViewController unwindToDrawViewController:]
+-[ReportViewController editButton:]
+-[ReportViewController setupNavBarAttributes:]
+-[ReportViewController selectFeedbackCategory:]
+___47-[ReportViewController selectFeedbackCategory:]_block_invoke
+___47-[ReportViewController selectFeedbackCategory:]_block_invoke_2
+___47-[ReportViewController selectFeedbackCategory:]_block_invoke_3
+-[ReportViewController doneSelectedFeedbackCategory::]
+-[ReportViewController container]
+-[ReportViewController setContainer:]
+-[ReportViewController imageView]
+-[ReportViewController setImageView:]
+-[ReportViewController image]
+-[ReportViewController setImage:]
+-[ReportViewController videoPath]
+-[ReportViewController setVideoPath:]
+-[ReportViewController drawnImage]
+-[ReportViewController setDrawnImage:]
+-[ReportViewController sourceClassName]
+-[ReportViewController setSourceClassName:]
+-[ReportViewController config]
+-[ReportViewController setConfig:]
+-[ReportViewController delegate]
+-[ReportViewController setDelegate:]
+-[ReportViewController titleTextField]
+-[ReportViewController setTitleTextField:]
+-[ReportViewController reporterName]
+-[ReportViewController setReporterName:]
+-[ReportViewController freeCommentField]
+-[ReportViewController setFreeCommentField:]
+-[ReportViewController scrollView]
+-[ReportViewController setScrollView:]
+-[ReportViewController playButton]
+-[ReportViewController setPlayButton:]
+-[ReportViewController keyboardAccessoryView]
+-[ReportViewController setKeyboardAccessoryView:]
+-[ReportViewController keyboardAccessoryBottomConstraint]
+-[ReportViewController setKeyboardAccessoryBottomConstraint:]
+-[ReportViewController freeCommentHeightConstraint]
+-[ReportViewController setFreeCommentHeightConstraint:]
+-[ReportViewController keyboardHeight]
+-[ReportViewController setKeyboardHeight:]
+-[ReportViewController activityView]
+-[ReportViewController setActivityView:]
+-[ReportViewController activityIndicator]
+-[ReportViewController setActivityIndicator:]
+-[ReportViewController sendButton]
+-[ReportViewController setSendButton:]
+-[ReportViewController DrawingButton]
+-[ReportViewController setDrawingButton:]
+-[ReportViewController RecordingButton]
+-[ReportViewController setRecordingButton:]
+-[ReportViewController feedbackCategoryLabel]
+-[ReportViewController setFeedbackCategoryLabel:]
+-[ReportViewController sendingLabel]
+-[ReportViewController setSendingLabel:]
+-[ReportViewController feedbackCategoryButton]
+-[ReportViewController setFeedbackCategoryButton:]
+-[ReportViewController notSelectedCategoryTitle]
+-[ReportViewController setNotSelectedCategoryTitle:]
+-[ReportViewController .cxx_destruct]
+___block_descriptor_32_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_CLASSLIST_REFERENCES_$_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_CLASSLIST_REFERENCES_$_.138
+___block_descriptor_40_e8_32bs_e23_v16?0"UIAlertAction"8l
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_CLASSLIST_REFERENCES_$_.158
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_CLASSLIST_REFERENCES_$_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_CLASSLIST_REFERENCES_$_.188
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_CLASSLIST_REFERENCES_$_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_CLASSLIST_REFERENCES_$_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.258
+___block_descriptor_40_e8_32s_e8_v16?0q8l
+_OBJC_CLASSLIST_REFERENCES_$_.264
+_OBJC_SELECTOR_REFERENCES_.268
+___block_descriptor_40_e8_32s_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+_OBJC_SELECTOR_REFERENCES_.271
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_SELECTOR_REFERENCES_.299
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_SELECTOR_REFERENCES_.311
+_OBJC_SELECTOR_REFERENCES_.313
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_SELECTOR_REFERENCES_.317
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_CLASSLIST_REFERENCES_$_.324
+_OBJC_SELECTOR_REFERENCES_.326
+_OBJC_CLASSLIST_REFERENCES_$_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.333
+_OBJC_CLASSLIST_REFERENCES_$_.334
+_OBJC_CLASSLIST_REFERENCES_$_.335
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.347
+_OBJC_SELECTOR_REFERENCES_.351
+_OBJC_SELECTOR_REFERENCES_.357
+_OBJC_SELECTOR_REFERENCES_.369
+___block_literal_global.376
+_OBJC_SELECTOR_REFERENCES_.378
+_OBJC_CLASSLIST_REFERENCES_$_.379
+_OBJC_SELECTOR_REFERENCES_.381
+_OBJC_CLASSLIST_REFERENCES_$_.382
+_OBJC_SELECTOR_REFERENCES_.384
+_OBJC_SELECTOR_REFERENCES_.386
+_OBJC_SELECTOR_REFERENCES_.388
+_OBJC_SELECTOR_REFERENCES_.390
+_OBJC_SELECTOR_REFERENCES_.392
+_OBJC_SELECTOR_REFERENCES_.394
+_OBJC_SELECTOR_REFERENCES_.396
+_OBJC_IVAR_$_ReportViewController.focusOnReporterName
+_OBJC_SELECTOR_REFERENCES_.398
+_OBJC_CLASSLIST_REFERENCES_$_.399
+_OBJC_SELECTOR_REFERENCES_.401
+_OBJC_SELECTOR_REFERENCES_.403
+_OBJC_SELECTOR_REFERENCES_.405
+_OBJC_SELECTOR_REFERENCES_.407
+_OBJC_SELECTOR_REFERENCES_.409
+_OBJC_SELECTOR_REFERENCES_.411
+_OBJC_SELECTOR_REFERENCES_.413
+_OBJC_SELECTOR_REFERENCES_.415
+_OBJC_SELECTOR_REFERENCES_.417
+_OBJC_IVAR_$_ReportViewController._scrollView
+_OBJC_SELECTOR_REFERENCES_.419
+_OBJC_SELECTOR_REFERENCES_.421
+_OBJC_SELECTOR_REFERENCES_.423
+_OBJC_SELECTOR_REFERENCES_.425
+_OBJC_SELECTOR_REFERENCES_.427
+_OBJC_SELECTOR_REFERENCES_.429
+_OBJC_SELECTOR_REFERENCES_.433
+_OBJC_SELECTOR_REFERENCES_.435
+_OBJC_SELECTOR_REFERENCES_.437
+_OBJC_SELECTOR_REFERENCES_.439
+_OBJC_SELECTOR_REFERENCES_.441
+_OBJC_SELECTOR_REFERENCES_.443
+_OBJC_SELECTOR_REFERENCES_.445
+_OBJC_SELECTOR_REFERENCES_.447
+_OBJC_SELECTOR_REFERENCES_.449
+_OBJC_SELECTOR_REFERENCES_.451
+_OBJC_SELECTOR_REFERENCES_.453
+_OBJC_CLASSLIST_REFERENCES_$_.454
+_OBJC_SELECTOR_REFERENCES_.456
+_OBJC_SELECTOR_REFERENCES_.458
+_OBJC_SELECTOR_REFERENCES_.460
+_OBJC_SELECTOR_REFERENCES_.462
+_OBJC_CLASSLIST_REFERENCES_$_.463
+_OBJC_SELECTOR_REFERENCES_.465
+_OBJC_SELECTOR_REFERENCES_.467
+___block_literal_global.470
+_OBJC_SELECTOR_REFERENCES_.472
+_OBJC_SELECTOR_REFERENCES_.474
+___block_descriptor_48_e8_32s_e23_v16?0"UIAlertAction"8l
+_OBJC_SELECTOR_REFERENCES_.476
+___block_descriptor_48_e8_32s40s_e15_v32?08Q16^B24l
+_OBJC_SELECTOR_REFERENCES_.481
+_OBJC_SELECTOR_REFERENCES_.483
+_OBJC_SELECTOR_REFERENCES_.485
+_OBJC_SELECTOR_REFERENCES_.487
+_OBJC_SELECTOR_REFERENCES_.489
+_OBJC_SELECTOR_REFERENCES_.491
+_OBJC_SELECTOR_REFERENCES_.493
+_OBJC_IVAR_$_ReportViewController._container
+_OBJC_IVAR_$_ReportViewController._imageView
+_OBJC_IVAR_$_ReportViewController._image
+_OBJC_IVAR_$_ReportViewController._videoPath
+_OBJC_IVAR_$_ReportViewController._drawnImage
+_OBJC_IVAR_$_ReportViewController._sourceClassName
+_OBJC_IVAR_$_ReportViewController._config
+_OBJC_IVAR_$_ReportViewController._delegate
+_OBJC_IVAR_$_ReportViewController._titleTextField
+_OBJC_IVAR_$_ReportViewController._reporterName
+_OBJC_IVAR_$_ReportViewController._freeCommentField
+_OBJC_IVAR_$_ReportViewController._playButton
+_OBJC_IVAR_$_ReportViewController._keyboardAccessoryView
+_OBJC_IVAR_$_ReportViewController._keyboardAccessoryBottomConstraint
+_OBJC_IVAR_$_ReportViewController._freeCommentHeightConstraint
+_OBJC_IVAR_$_ReportViewController._keyboardHeight
+_OBJC_IVAR_$_ReportViewController._activityView
+_OBJC_IVAR_$_ReportViewController._activityIndicator
+_OBJC_IVAR_$_ReportViewController._sendButton
+_OBJC_IVAR_$_ReportViewController._DrawingButton
+_OBJC_IVAR_$_ReportViewController._RecordingButton
+_OBJC_IVAR_$_ReportViewController._feedbackCategoryLabel
+_OBJC_IVAR_$_ReportViewController._sendingLabel
+_OBJC_IVAR_$_ReportViewController._feedbackCategoryButton
+_OBJC_IVAR_$_ReportViewController._notSelectedCategoryTitle
+__OBJC_$_PROTOCOL_REFS_UITextFieldDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextFieldDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITextFieldDelegate
+__OBJC_PROTOCOL_$_UITextFieldDelegate
+__OBJC_LABEL_PROTOCOL_$_UITextFieldDelegate
+__OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_REFS_UITextViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UITextViewDelegate
+__OBJC_PROTOCOL_$_UITextViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
+__OBJC_CLASS_PROTOCOLS_$_ReportViewController
+__OBJC_METACLASS_RO_$_ReportViewController
+__OBJC_$_INSTANCE_METHODS_ReportViewController
+__OBJC_$_INSTANCE_VARIABLES_ReportViewController
+__OBJC_$_PROP_LIST_ReportViewController
+__OBJC_CLASS_RO_$_ReportViewController
+/Users/kkamakur/AppFeedback-ios/AppFeedback/ReportViewController.m
+AppFeedback/ReportViewController.m
+AppFeedback/ReportViewController.h
+__47-[ReportViewController selectFeedbackCategory:]_block_invoke_3
+__47-[ReportViewController selectFeedbackCategory:]_block_invoke_2
+__47-[ReportViewController selectFeedbackCategory:]_block_invoke
+__41-[ReportViewController playButtonTapped:]_block_invoke
+__42-[ReportViewController videoButtonTapped:]_block_invoke_2
+__42-[ReportViewController videoButtonTapped:]_block_invoke
+__33-[ReportViewController didTapOK:]_block_invoke_3
+__33-[ReportViewController didTapOK:]_block_invoke_2
+__33-[ReportViewController didTapOK:]_block_invoke
+__48-[ReportViewController p_sendMessage:videoPath:]_block_invoke_2
+__48-[ReportViewController p_sendMessage:videoPath:]_block_invoke
+__122-[ReportViewController p_createAlertWithTitle:message:cancelButtonTitle:destructiveButtonTitle:otherButtonTitle:tapBlock:]_block_invoke_2
+__122-[ReportViewController p_createAlertWithTitle:message:cancelButtonTitle:destructiveButtonTitle:otherButtonTitle:tapBlock:]_block_invoke.144
+__122-[ReportViewController p_createAlertWithTitle:message:cancelButtonTitle:destructiveButtonTitle:otherButtonTitle:tapBlock:]_block_invoke
+__32-[ReportViewController p_close:]_block_invoke
+__31-[ReportViewController p_close]_block_invoke
+-[CaptureOverlayWindow init]
+-[CaptureOverlayWindow setEnableCapture:]
+-[CaptureOverlayWindow showAnimationAt:]
+___40-[CaptureOverlayWindow showAnimationAt:]_block_invoke
+___40-[CaptureOverlayWindow showAnimationAt:]_block_invoke.35
+-[CaptureOverlayWindow pointInside:withEvent:]
+-[CaptureOverlayWindow isUnderFloatingButton:withEvent:]
+-[CaptureOverlayWindow enableCapture]
+_OBJC_CLASSLIST_REFERENCES_$_.11
+___block_descriptor_40_e8_32s_e8_v12?0B8l
+_OBJC_IVAR_$_CaptureOverlayWindow._enableCapture
+__OBJC_METACLASS_RO_$_CaptureOverlayWindow
+__OBJC_$_INSTANCE_METHODS_CaptureOverlayWindow
+__OBJC_$_INSTANCE_VARIABLES_CaptureOverlayWindow
+__OBJC_$_PROP_LIST_CaptureOverlayWindow
+__OBJC_CLASS_RO_$_CaptureOverlayWindow
+/Users/kkamakur/AppFeedback-ios/AppFeedback/CaptureOverlayWindow.m
+AppFeedback/CaptureOverlayWindow.h
+AppFeedback/CaptureOverlayWindow.m
+__40-[CaptureOverlayWindow showAnimationAt:]_block_invoke.35
+__40-[CaptureOverlayWindow showAnimationAt:]_block_invoke
+-[SendData imageData]
+-[SendData setImageData:]
+-[SendData videoPath]
+-[SendData setVideoPath:]
+-[SendData title]
+-[SendData setTitle:]
+-[SendData category]
+-[SendData setCategory:]
+-[SendData comment]
+-[SendData setComment:]
+-[SendData username]
+-[SendData setUsername:]
+-[SendData appTitle]
+-[SendData setAppTitle:]
+-[SendData appVersion]
+-[SendData setAppVersion:]
+-[SendData appBuildVersion]
+-[SendData setAppBuildVersion:]
+-[SendData systemVersion]
+-[SendData setSystemVersion:]
+-[SendData modelCode]
+-[SendData setModelCode:]
+-[SendData modelName]
+-[SendData setModelName:]
+-[SendData .cxx_destruct]
+-[SlackAPI initWithToken:channel:apiUrl:branch:]
+-[SlackAPI postData:completionHandler:]
+-[SlackAPI setTextData:textDictionary:boundary:]
+-[SlackAPI setImageData:imageData:videoPath:boundary:]
+-[SlackAPI token]
+-[SlackAPI setToken:]
+-[SlackAPI channel]
+-[SlackAPI setChannel:]
+-[SlackAPI apiUrl]
+-[SlackAPI setApiUrl:]
+-[SlackAPI branchName]
+-[SlackAPI setBranchName:]
+-[SlackAPI .cxx_destruct]
+__OBJC_METACLASS_RO_$_SendData
+__OBJC_$_INSTANCE_METHODS_SendData
+_OBJC_IVAR_$_SendData._imageData
+_OBJC_IVAR_$_SendData._videoPath
+_OBJC_IVAR_$_SendData._title
+_OBJC_IVAR_$_SendData._category
+_OBJC_IVAR_$_SendData._comment
+_OBJC_IVAR_$_SendData._username
+_OBJC_IVAR_$_SendData._appTitle
+_OBJC_IVAR_$_SendData._appVersion
+_OBJC_IVAR_$_SendData._appBuildVersion
+_OBJC_IVAR_$_SendData._systemVersion
+_OBJC_IVAR_$_SendData._modelCode
+_OBJC_IVAR_$_SendData._modelName
+__OBJC_$_INSTANCE_VARIABLES_SendData
+__OBJC_$_PROP_LIST_SendData
+__OBJC_CLASS_RO_$_SendData
+_OBJC_CLASSLIST_REFERENCES_$_.79
+_OBJC_CLASSLIST_REFERENCES_$_.84
+_OBJC_CLASSLIST_REFERENCES_$_.123
+_OBJC_CLASSLIST_REFERENCES_$_.132
+_OBJC_CLASSLIST_REFERENCES_$_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_CLASSLIST_REFERENCES_$_.178
+__OBJC_METACLASS_RO_$_SlackAPI
+__OBJC_$_INSTANCE_METHODS_SlackAPI
+_OBJC_IVAR_$_SlackAPI._token
+_OBJC_IVAR_$_SlackAPI._channel
+_OBJC_IVAR_$_SlackAPI._apiUrl
+_OBJC_IVAR_$_SlackAPI._branchName
+__OBJC_$_INSTANCE_VARIABLES_SlackAPI
+__OBJC_$_PROP_LIST_SlackAPI
+__OBJC_CLASS_RO_$_SlackAPI
+/Users/kkamakur/AppFeedback-ios/AppFeedback/SlackAPI.m
+AppFeedback/SlackAPI.m
+AppFeedback/SlackAPI.h
