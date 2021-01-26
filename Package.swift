@@ -9,9 +9,6 @@ let package = Package(
             targets: ["AppFeedback"]),
     ],
     targets: [
-        .target(
-            name: "AppFeedback",
-            path: "./XCFramework/AppFeedback"
-            )
+        .binaryTarget(name: "AppFeedback", path: "./XCFramework/AppFeedback.xcframework")
     ]
 )
